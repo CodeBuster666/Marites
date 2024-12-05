@@ -17,5 +17,4 @@ Chapter 6 - Using Common Widgets
 
 Chapter 7 - Adding Animation to an App
 
-
 ![Github stats](https://github-readme-stats.vercel.app/api?username=codebuster666)
