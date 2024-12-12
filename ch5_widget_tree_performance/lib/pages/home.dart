@@ -12,13 +12,13 @@ class _HomeState extends State<Home> {
         title: Text('Widget Tree'),
       ),
       body: SafeArea(
-          child: SingleChildScrollView(
-            child: Padding(
-              padding: EdgeInsets.all(16.0),
+        child: SingleChildScrollView(
+          child: Padding(
+            padding: EdgeInsets.all(16.0),
 
-            )
-          )
-      )
-    ),
+          ),
+        ),
+      ),
+    );
   }
 }
