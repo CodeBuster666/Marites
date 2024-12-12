@@ -11,6 +11,31 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Home'),
+        leading: IconButton(
+          icon: Icon(Icons.menu),
+          onPressed: () { },
+        ),
+        actions: <Widget>[
+          IconButton(
+            icon:Icon(Icons.search),
+            onPressed: () {},
+          ),
+          IconButton(
+            icon: Icon(Icons.more_vert),
+            onPressed: (){},
+          )
+        ],
+        bottom: PreferredSize(
+          child: Container (
+            color: Colors.lightGreen.shade100,
+            height: 75.0,
+            width: double.infinity,
+            child: Center(
+              child: Text('Bottom'),
+            ),
+          ),
+          preferredSize: Size.fromHeight(75.0),
+        ),
       ),
       body: SafeArea(
         child: SingleChildScrollView(
